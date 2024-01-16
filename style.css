@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(238, 231, 216);
+    color: rgb(214, 52, 132);
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+
+#ispis-pobjeda {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    height: 70vh;
+    gap: 10px;
+}
+
+.igraci {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.kocka {
+    width: 100px;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    font-size: 1rem;
+}
